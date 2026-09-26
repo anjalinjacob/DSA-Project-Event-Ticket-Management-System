@@ -3,9 +3,9 @@
 Our project is an Event Ticket Management System developed using C programming language. The main aim of the project is to manage event bookings and demonstrate the practical use of different data structures.
 The system allows users to view available events, book tickets, cancel tickets, search for participants, navigate to event venues, and sort events based on ticket availability.
 
-<img src="./Screenshots/Main Output.jpg" width="400" alt="Main Output">
+<img src="./Screenshots/Main Output.jpg" width="400" height="300" alt="Main Output">
 
-<img src="./Screenshots/Components.png" width="800" alt="Components">
+<img src="./Screenshots/Components.png" width="750" alt="Components">
 
 # Queue
 A queue is a linear data structure that operates on the First-In-First-Out (FIFO) principle.
@@ -145,7 +145,7 @@ In our project, the vertices represent different locations in the event venue an
 
 We use BFS, or Breadth First Search, to traverse the graph level by level and find a route from the user's starting location to the destination. The graph is represented using an adjacency matrix, and BFS uses a queue to visit the connected locations.
 
-<img src="./Screenshots/Graph Image.png" width="300" height="300" alt="Image"> <img src="./Screenshots/Graph Adjacency Matrix.png" width="400" height="300" alt="Image">
+<img src="./Screenshots/Graph Image.png" width="300" height="300" alt="Image"> <img src="./Screenshots/Graph Adjacency Matrix.png" width="450" height="350" alt="Image">
 
 <img src="./Screenshots/Graph Nodes.png" width="800" height="100" alt="Image">
 
