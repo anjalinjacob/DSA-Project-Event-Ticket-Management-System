@@ -5,7 +5,7 @@ The system allows users to view available events, book tickets, cancel tickets, 
 
 <img src="./Screenshots/Main Output.jpg" width="400" alt="Main Output">
 
-<img src="./Screenshots/Components.png" width="700" alt="Components">
+<img src="./Screenshots/Components.png" width="800" alt="Components">
 
 # Queue
 A queue is a linear data structure that operates on the First-In-First-Out (FIFO) principle.
@@ -64,7 +64,7 @@ void confirmBooking(int e_id, int b_id, char* name) {
 void displayEvents() {
     printf("\n--- Available Events ---\n");
     for (int i = 0; i < MAX_EVENTS; i++) {
-        int waitlist_count = (events[i].q_front == -1) ? 0 : (events[i].q_rear - events[i].q_front + 1);    
+        int waitlist_count = (events[i].q_front == -1) ? 0 : (events[i].q_rear - events[i].q_front + 1);
         printf("ID: %d | %s | Tickets Left: %d | Waitlist Queue: %d/%d\n", 
                events[i].id, events[i].name, events[i].available_tickets, waitlist_count, MAX_WAITLIST);
     }
@@ -145,8 +145,8 @@ In our project, the vertices represent different locations in the event venue an
 
 We use BFS, or Breadth First Search, to traverse the graph level by level and find a route from the user's starting location to the destination. The graph is represented using an adjacency matrix, and BFS uses a queue to visit the connected locations.
 
-<img src="./Screenshots/Graph Adjacency Matrix.png" width="400" height="300" alt="Image">
-<img src="./Screenshots/Graph Image.png" width="300" height="300" alt="Image">
+<img src="./Screenshots/Graph Image.png" width="300" height="300" alt="Image"> <img src="./Screenshots/Graph Adjacency Matrix.png" width="400" height="300" alt="Image">
+
 <img src="./Screenshots/Graph Nodes.png" width="800" height="100" alt="Image">
 
 ```c
@@ -234,9 +234,6 @@ void sortEventsByTickets() {
 # Output Sample
 <img src="./Screenshots/Output 1.png" width="500" height="300" alt="Image">
 
-<img src="./Screenshots/Output 2.png" width="400" height="300" alt="Image">
-<img src="./Screenshots/Output 3.png" width="400" height="300" alt="Image">
-<img src="./Screenshots/Output 4.png" width="400" height="300" alt="Image">
-<img src="./Screenshots/Output 5.png" width="400" height="300" alt="Image">
-<img src="./Screenshots/Output 6.png" width="400" height="300" alt="Image">
-<img src="./Screenshots/Output 7.png" width="400" height="300" alt="Image">
+<img src="./Screenshots/Output 2.png" width="400" height="300" alt="Image">     <img src="./Screenshots/Output 3.png" width="400" height="300" alt="Image">
+<img src="./Screenshots/Output 4.png" width="400" height="300" alt="Image">     <img src="./Screenshots/Output 5.png" width="400" height="300" alt="Image">
+<img src="./Screenshots/Output 6.png" width="400" height="300" alt="Image">     <img src="./Screenshots/Output 7.png" width="400" height="300" alt="Image">
