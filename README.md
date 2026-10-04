@@ -138,6 +138,8 @@ void cancelTicket() {
     }
 }
 ```
+<img src="./Screenshots/Flowchart.png" width="750" height="650" alt="Image">
+
 # Graph
 A graph is a non-linear data structure consisting of vertices and edges. 
 
